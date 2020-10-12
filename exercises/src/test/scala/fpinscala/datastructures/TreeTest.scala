@@ -3,7 +3,7 @@ package fpinscala.datastructures
 import org.scalatest.FlatSpec
 
 class TreeTest extends FlatSpec {
-  var testTree =
+  val testTree =
     Branch(
       Branch(
         Branch(

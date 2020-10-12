@@ -4,9 +4,9 @@ import org.scalatest.FlatSpec
 
 class ListTest extends FlatSpec{
 
-  var emptyList: List[Int] = List()
-  var intList: List[Int] = List(1,2,3,4,5,6)
-  var doubleList: List[Double] = List(1.0, 2.0, 3.0, 4.0, 5.0, 6.0)
+  val emptyList: List[Int] = List()
+  val intList: List[Int] = List(1,2,3,4,5,6)
+  val doubleList: List[Double] = List(1.0, 2.0, 3.0, 4.0, 5.0, 6.0)
 
   "Method `tail`" should "return original list without first element" in {
     assert(List.tail(intList) == List(2,3,4,5,6))
